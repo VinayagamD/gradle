@@ -18,3 +18,25 @@ Integer doubleIt(int i){
 }
 
 println doubleIt(2)
+
+def s1 = "a string"
+println s1
+def s2 = "a string"
+println s2
+
+def s3 = """ A
+    string on
+    on
+    multiple
+    lines
+"""
+
+println s3
+
+def x = 4
+println "x is $x"
+
+def myCourse = "gradle"
+
+println "I'm training in: ${myCourse.toUpperCase()}"
+
