@@ -11,10 +11,10 @@ void sayHelloWorld(){
     println "Hello World!"
 }
 
-int doubleIt(int i){
+Integer doubleIt(int i){
     println i
     i * 3
-    def y = i
+    Integer y = i
 }
 
 println doubleIt(2)
