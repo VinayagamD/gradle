@@ -4,3 +4,17 @@ SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'")
 sdf.setTimeZone(TimeZone.getTimeZone("UTC"))
 
 println "Hello World "+sdf.format(new Date())
+
+sayHelloWorld()
+
+void sayHelloWorld(){
+    println "Hello World!"
+}
+
+int doubleIt(int i){
+    println i
+    i * 3
+    def y = i
+}
+
+println doubleIt(2)
